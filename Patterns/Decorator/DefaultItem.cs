@@ -4,7 +4,7 @@ namespace Patterns.Decorator
 {
   internal class DefaultItem : IItem
   {
-    public DefaultItem()
+    public void Run()
     {
       Console.WriteLine("Default Item");
     }

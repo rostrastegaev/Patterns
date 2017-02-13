@@ -8,5 +8,10 @@
     {
       _item = item;
     }
+
+    public virtual void Run()
+    {
+      _item.Run();
+    }
   }
 }

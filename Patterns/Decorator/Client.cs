@@ -4,7 +4,7 @@
   {
     public void Run()
     {
-      new ItemDecorator1(new ItemDecorator2(new DefaultItem()));
+      new ItemDecorator1(new ItemDecorator2(new DefaultItem())).Run();
     }
   }
 }
