@@ -30,6 +30,10 @@ namespace Patterns
       Client proxyClient = new Client(proxyServer);
       proxyClient.Run();
 
+      Console.WriteLine("----------------------------- Decorator -----------------------------");
+      Decorator.Client decClient = new Decorator.Client();
+      decClient.Run();
+
       Console.ReadKey(true);
     }
   }

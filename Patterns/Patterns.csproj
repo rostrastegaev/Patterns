@@ -56,6 +56,12 @@
     <Compile Include="Adapter\IAdapter.cs" />
     <Compile Include="Adapter\IToAdapt.cs" />
     <Compile Include="Adapter\ToAdapt.cs" />
+    <Compile Include="Decorator\Client.cs" />
+    <Compile Include="Decorator\ItemDecorator.cs" />
+    <Compile Include="Decorator\DefaultItem.cs" />
+    <Compile Include="Decorator\IItem.cs" />
+    <Compile Include="Decorator\ItemDecorator1.cs" />
+    <Compile Include="Decorator\ItemDecorator2.cs" />
     <Compile Include="FactoryMethod\Child1.cs" />
     <Compile Include="FactoryMethod\Child2.cs" />
     <Compile Include="FactoryMethod\Parent.cs" />
