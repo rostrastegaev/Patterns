@@ -52,6 +52,9 @@
     <Compile Include="AbstractFactory\WinFactory.cs" />
     <Compile Include="AbstractFactory\WinItem1.cs" />
     <Compile Include="AbstractFactory\WinItem2.cs" />
+    <Compile Include="FactoryMethod\Child1.cs" />
+    <Compile Include="FactoryMethod\Child2.cs" />
+    <Compile Include="FactoryMethod\Parent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
