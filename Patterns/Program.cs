@@ -1,5 +1,7 @@
 ﻿using Patterns.AbstractFactory;
+using Patterns.Adapter;
 using Patterns.FactoryMethod;
+using Patterns.Proxy;
 using System;
 
 namespace Patterns
@@ -15,6 +17,18 @@ namespace Patterns
       Console.WriteLine("----------------------------- Factory Method -----------------------------");
       Parent.Create().Run();
       Parent.Create().Run();
+
+      Console.WriteLine("----------------------------- Adapter -----------------------------");
+      IToAdapt toAdapt = new ToAdapt();
+      IAdapter adapter = new Adapter.Adapter(toAdapt);
+      adapter.NormalMethod1();
+      adapter.NormalMethod2();
+
+      Console.WriteLine("----------------------------- Proxy -----------------------------");
+      IServer server = new Server();
+      IServer proxyServer = new Proxy.Proxy(server);
+      Client proxyClient = new Client(proxyServer);
+      proxyClient.Run();
 
       Console.ReadKey(true);
     }

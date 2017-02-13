@@ -52,11 +52,19 @@
     <Compile Include="AbstractFactory\WinFactory.cs" />
     <Compile Include="AbstractFactory\WinItem1.cs" />
     <Compile Include="AbstractFactory\WinItem2.cs" />
+    <Compile Include="Adapter\Adapter.cs" />
+    <Compile Include="Adapter\IAdapter.cs" />
+    <Compile Include="Adapter\IToAdapt.cs" />
+    <Compile Include="Adapter\ToAdapt.cs" />
     <Compile Include="FactoryMethod\Child1.cs" />
     <Compile Include="FactoryMethod\Child2.cs" />
     <Compile Include="FactoryMethod\Parent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\IServer.cs" />
+    <Compile Include="Proxy\Client.cs" />
+    <Compile Include="Proxy\Proxy.cs" />
+    <Compile Include="Proxy\Server.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
